@@ -1,9 +1,10 @@
 steps:
-  - name: test
+  - name: deploy
     image: debian:stable-slim
     commands:
-      - echo testing
-      - sleep 5
+      - echo deploying
 
 depends_on:
+  - lint
   - build
+  - test

@@ -1,9 +1,6 @@
 steps:
-  - name: test
+  - name: lint
     image: debian:stable-slim
     commands:
-      - echo testing
+      - echo linting
       - sleep 5
-
-depends_on:
-  - build
