@@ -1,0 +1,9 @@
+---
+steps:
+  - name: a-test-step
+    image: debian
+    commands:
+      - echo "Testing.."
+
+depends_on:
+  - build
