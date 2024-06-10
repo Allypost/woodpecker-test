@@ -12,4 +12,3 @@ steps:
       - echo building
       - echo "Environment:"
       - env
-      - sleep 5
