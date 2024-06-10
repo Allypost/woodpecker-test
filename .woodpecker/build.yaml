@@ -3,7 +3,7 @@ when:
       - main
       - master
       - ${CI_REPO_DEFAULT_BRANCH}
-    event: push
+    event: [push, pull_request, manual]
 
 steps:
   - name: build
