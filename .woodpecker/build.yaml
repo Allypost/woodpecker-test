@@ -13,3 +13,5 @@ steps:
       - echo building
       - echo "Environment:"
       - env
+    when:
+      event: [push, pull_request, manual]
