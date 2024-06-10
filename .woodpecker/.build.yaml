@@ -1,6 +1,9 @@
 when:
-  - event: push
-    branch: main
+  branch:
+    - main
+    - master
+    - ${CI_REPO_DEFAULT_BRANCH}
+  event: push
 
 steps:
   - name: build
