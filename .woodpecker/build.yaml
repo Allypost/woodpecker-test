@@ -6,8 +6,9 @@ when:
     #   # - ${CI_REPO_DEFAULT_BRANCH}
 
 steps:
-  - name: build
+  build:
     image: debian:stable-slim
+    pull: true
     commands:
       - echo building
       - echo "Environment:"
