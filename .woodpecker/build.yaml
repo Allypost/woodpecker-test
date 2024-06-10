@@ -13,5 +13,3 @@ steps:
       - echo "Environment:"
       - env
       - sleep 5
-    when:
-      event: [push, pull_request, manual]
