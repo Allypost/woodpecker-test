@@ -2,7 +2,7 @@ when:
   branch:
     - main
     - master
-    - ${CI_REPO_DEFAULT_BRANCH}
+    # - ${CI_REPO_DEFAULT_BRANCH}
   event: push
 
 steps:
